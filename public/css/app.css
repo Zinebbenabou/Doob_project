@@ -52,6 +52,7 @@ nav button:hover {
     display: flex;
     flex-direction: column;
     gap: 3vw;
+    
 }
 .left_section h1{
     color: #314584;
@@ -133,4 +134,42 @@ nav button:hover {
     font-weight: 500;
     font-size: 19px;
     width: 66%;
+}
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-left: 30px;
+}
+.info input{
+    padding-right: 30vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: none;
+    background-color: #f4fafe;
+}
+.msg textarea{
+    padding-right: 73vw;
+    padding-bottom: 10vh;
+    border: none;
+    background-color: #f4fafe;
+}
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    padding-left: 30px;
+}
+.info input{
+    padding-right: 30vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: none;
+    background-color: #f4fafe;
+}
+.msg textarea{
+    padding-right: 73vw;
+    padding-bottom: 10vh;
+    border: none;
+    background-color: #f4fafe;
 }
