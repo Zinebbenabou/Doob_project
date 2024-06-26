@@ -93,15 +93,15 @@ nav button:hover {
 
 
 .sec2-first h1{
-    font-size: 59px;
+    font-size: 35px;
     color: rgba(27, 27, 129, 0.848);
 }
 .sec2-first button{
     background-color: rgb(255 12 12 / 77%);
     border: none;
-    padding: 27px;
+    padding: 15px;
     border-radius: 80px;
-    width: 46%;
+    width: 40%;
     color: white;
     font-size: 12px;
     font-weight: 600;
@@ -112,25 +112,25 @@ nav button:hover {
     display: flex;
     flex-direction: column;
     gap: 80px;
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 
 .sec2-secound{
-    width: 20%;
-    padding: 70px 36px;
+    width: 15%;
+    padding: 50px 26px;
     border-radius: 4px;
     box-shadow: 0px 0px 11px 2px #b8b8b87e;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
 }
 .sec2-secound h4{
-    font-size: 40px;
+    font-size: 20px;
     color: rgba(27, 27, 129, 0.848);
 }
 .sec2-secound p{
     color: rgba(42, 42, 100, 0.848);
     font-weight: 500;
-    font-size: 19px;
-    width: 66%;
+    font-size: 15px;
+    width: 70%;
 }
