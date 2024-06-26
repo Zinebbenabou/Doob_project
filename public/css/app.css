@@ -118,7 +118,6 @@ nav button:hover {
 
 .sec2-secound{
     width: 20%;
-    padding: 50px 35px;
     border-radius: 4px;
     box-shadow: 0px 0px 11px 2px #b8b8b87e;
     display: flex;
@@ -169,12 +168,11 @@ nav button:hover {
     background-color: #f4fafe;
 }
 .msg textarea{
-    padding-left: 214px;
     padding-bottom: 10vh;
     border: none;
     background-color: #f4fafe;
     font-size: 15px;
-    width: 70%;
+    width: 100%;
 }
 .send{
     display: flex;
@@ -273,14 +271,6 @@ footer{
 
 
 
-    .info{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-    }
-    .msg textarea {
-        padding-right: 30%;
-    }
     
 
 
@@ -297,7 +287,6 @@ footer{
         margin-bottom: 20px;
         align-items: center;
         justify-content: center;
-        padding:  40px ;
         box-shadow: none;
         text-align: center;
         
@@ -320,4 +309,10 @@ footer{
             gap: 20px;
             display: flex;
         }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 3vh;
+        }
+
 }
