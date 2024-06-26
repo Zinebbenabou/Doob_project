@@ -225,5 +225,27 @@ nav button:hover {
         display: flex;
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .msg textarea {
+        padding-right: 30%;
+    }
     
 }
