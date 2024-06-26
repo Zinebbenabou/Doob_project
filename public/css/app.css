@@ -154,12 +154,7 @@ nav button:hover {
     border: none;
     background-color: #f4fafe;
 }
-.msg textarea{
-    padding-right: 73vw;
-    padding-bottom: 10vh;
-    border: none;
-    background-color: #f4fafe;
-}
+
 .contact_us{
     display: flex;
     flex-direction: column;
@@ -174,7 +169,7 @@ nav button:hover {
     background-color: #f4fafe;
 }
 .msg textarea{
-    padding-right: 73vw;
+    padding-left: 214px;
     padding-bottom: 10vh;
     border: none;
     background-color: #f4fafe;
@@ -188,6 +183,7 @@ nav button:hover {
 }
   
 footer{
+    margin-top:30px;
     padding: 50px 0;
     background-color: #314584;
     align-items: center;
@@ -221,3 +217,7 @@ footer{
     font-weight: 500;
 }
 
+.social{
+    display: flex;
+    gap: 20px;
+}
