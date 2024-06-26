@@ -118,6 +118,7 @@ nav button:hover {
 
 .sec2-secound{
     width: 20%;
+    padding: 30px;
     border-radius: 4px;
     box-shadow: 0px 0px 11px 2px #b8b8b87e;
     display: flex;
@@ -289,7 +290,7 @@ footer{
         justify-content: center;
         box-shadow: none;
         text-align: center;
-        
+        padding: 0;
     }
     .sec2-first h1{
        text-align: center;
