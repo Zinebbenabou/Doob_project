@@ -141,6 +141,12 @@ nav button:hover {
     gap: 2vh;
     padding-left: 30px;
 }
+.contact_us h2{
+    color: #ff0000;
+}
+.contact_us h1{
+    color: #314584;
+}
 .info input{
     padding-right: 30vw;
     padding-top: 3vh;
@@ -174,4 +180,9 @@ nav button:hover {
     background-color: #f4fafe;
     font-size: 15px;
     width: 70%;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
