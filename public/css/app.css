@@ -181,3 +181,49 @@ nav button:hover {
     justify-content: center;
     align-items: center;
 }
+#checkbox{
+    display: none;
+}
+@media (max-width: 480px){
+    .nav_content{
+        position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            display: none;
+            justify-content: center;
+            gap: 10vh;
+            background-color: white; 
+            
+            z-index: 1;
+    }
+    .first_section{
+        flex-direction: column;
+        gap: 3vh;
+        
+    }
+    .left_section{
+        width: 100%;
+        gap: 4vh;
+    }
+    #checkbox {
+
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+
+    #checkbox:checked +.nav_content {
+
+        display: flex;
+
+    }
+    
+}
