@@ -35,3 +35,45 @@ nav button{
 nav button:hover{
     background-color: #314584;
 }
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.left_section{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.left_section h1{
+    color: #314584;
+    font-size: xx-large
+    font-weight: bold;
+}
+.right_section img{
+    width: 30vw;
+}
+.btns{
+    display: flex;
+    gap: 3vw;
+}
+.btn1{
+    background-color: #ff0000;
+    color: aliceblue;
+    
+    border: none ;
+    padding: 10px 12px;
+    border-radius: 20px;
+
+}
+.btn2{
+    background-color: white;
+    color: #314584; 
+    border: none ;
+    padding: 10px 12px;
+    border-radius: 20px;
+
+}
