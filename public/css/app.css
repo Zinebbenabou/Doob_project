@@ -85,10 +85,10 @@ nav button:hover {
 .section-2 {
    
     padding-top: 80px;
-    gap: 60px;
+    padding-inline: 50px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -132,5 +132,5 @@ nav button:hover {
     color: rgba(42, 42, 100, 0.848);
     font-weight: 500;
     font-size: 15px;
-    width: 70%;
+    width: 80%;
 }
